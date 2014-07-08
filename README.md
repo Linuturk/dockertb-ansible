@@ -1,4 +1,4 @@
-ubuntu-ansible
-==============
+dockertb-ansible
+================
 
-Ubuntu docker image with the latest Ansible from PIP.
+Docker images with the latest Ansible from PIP.
