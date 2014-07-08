@@ -1,4 +1,4 @@
-dockertb-ansible
-================
+ubuntu-ansible
+==============
 
-Consolidation of the Ansible Docker Trusted Build.
+Ubuntu docker image with the latest Ansible from PIP.
