@@ -14,7 +14,7 @@ RUN apt-get -y upgrade
 RUN locale-gen en_US.UTF-8
 
 # Install Ansible
-RUN apt-get install git build-essential python-dev python-pip wget vim openssh-server -y
+RUN apt-get install git build-essential python-dev python-pip wget vim openssh-server libssl-dev libffi-dev -y
 RUN pip install ansible pyrax
 RUN mkdir /etc/ansible
 RUN echo 'localhost' > /etc/ansible/hosts
