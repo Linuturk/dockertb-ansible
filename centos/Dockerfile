@@ -10,7 +10,7 @@ RUN yum -y upgrade
 
 # Install Ansible
 RUN yum groupinstall "Development tools" -y
-RUN yum install git python-devel python-setuptools -y
+RUN yum install git python-devel python-setuptools openssl-devel -y
 RUN easy_install pip
 RUN pip install ansible pyrax
 RUN mkdir /etc/ansible
